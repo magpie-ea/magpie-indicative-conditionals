@@ -27,7 +27,7 @@ const intro = magpieViews.view_generator("intro", {
             <br />
             <br />
             The introduction view welcomes the participant and gives general information
-            about the experiment. You are in the <strong>${coin}</strong> group.
+            about the experiment. You are in the <strong>${group}</strong> group.
             <br />
             <br />
             This is a minimal experiment with one forced choice view. It can serve as a starting point for programming your own experiment.`,
