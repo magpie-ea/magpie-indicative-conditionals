@@ -20,18 +20,20 @@
 
 // Every experiment should start with an intro view. Here you can welcome your participants and tell them what the experiment is about
 const intro = magpieViews.view_generator("intro", {
-  trials: 1,
-  name: 'intro',
-  // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
-  text: `This is a sample introduction view.
+    trials: 1,
+    name: 'intro',
+    // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
+    text: `Thank you for taking part in this experiment.
             <br />
             <br />
-            The introduction view welcomes the participant and gives general information
-            about the experiment. You are in the <strong>${group}</strong> group.
+            Participation in this experiment is voluntary. You can quit at any moment if you like without negative consequences.
             <br />
             <br />
-            This is a minimal experiment with one forced choice view. It can serve as a starting point for programming your own experiment.`,
-  buttonText: 'begin the experiment'
+            The data from this experiment will be used for scientific purposes only. It will be stored anonymously and it might be shared with other scientists.
+            <br />
+            <br />
+            By proceeding you indicate that you have read, understood and that you agree with these terms.`,
+    buttonText: 'begin the experiment'
 });
 
 // For most tasks, you need instructions views

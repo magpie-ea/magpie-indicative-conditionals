@@ -6,7 +6,7 @@ const context_conditionals = [
             condition: "DI",
             QUD: `<i>Context:</i><br /> All students in class 6C have at least a B for their math test paper.
                   <br /><br />
-				  <i>Conditional:</i><br /> If Ben is in class 6C, then he has at least a B for his math test paper.`,
+				  <i>Statement:</i><br /> If Ben is in class 6C, then he has at least a B for his math test paper.`,
             question: group_question,
             optionLeft: label_left,
             optionRight: label_right
@@ -15,7 +15,7 @@ const context_conditionals = [
             condition: "DI",
             QUD: `<i>Context:</i><br /> In the football competition, a won match yields three points.
                   <br /><br />
-				  <i>Conditional:</i><br /> If Anderlecht is seven points ahead of Club Brugge, and there are only two 
+				  <i>Statement:</i><br /> If Anderlecht is seven points ahead of Club Brugge, and there are only two 
                   matches to go in this year’s competition, then Club Brugge cannot become champion this year.`,
             question: group_question,
             optionLeft: label_left,
@@ -26,7 +26,7 @@ const context_conditionals = [
             QUD: `<i>Context:</i><br /> All white cats possess a gene that predisposes them to develop blindness late in 
                   their lives.
                   <br /><br />
-				  <i>Conditional:</i><br /> If Paul’s kitten is white, then it possesses
+				  <i>Statement:</i><br /> If Paul’s kitten is white, then it possesses
                   a gene that predisposes it to develop blindness late
                   in its life.`,
             question: group_question,
@@ -40,7 +40,7 @@ const context_conditionals = [
                   requirement for the exam to hand in a thesis before
                   the end of the semester.
                   <br /><br />
-				  <i>Conditional:</i><br /> If Cynthia did not hand in her thesis
+				  <i>Statement:</i><br /> If Cynthia did not hand in her thesis
                   before the end of the semester, she failed.`,
             question: group_question,
             optionLeft: label_left,
@@ -53,7 +53,7 @@ const context_conditionals = [
                   go on an outing. It’s Friday, and Kathy is on her way
                   to the bank. She thinks:
                   <br /><br />
-				  <i>Conditional:</i><br /> If the bank is closed, then the employees
+				  <i>Statement:</i><br /> If the bank is closed, then the employees
                   are on an outing.39`,
             question: group_question,
             optionLeft: label_left,
@@ -64,7 +64,7 @@ const context_conditionals = [
             QUD: `<i>Context:</i><br /> Every student that has less than a C for the
                   exam is required to retake the exam.
                   <br /><br />
-				  <i>Conditional:</i><br /> If my classmate Joan has less than a C
+				  <i>Statement:</i><br /> If my classmate Joan has less than a C
                   for her exam, she is required to retake the exam.`,
             question: group_question,
             optionLeft: label_left,
@@ -78,7 +78,7 @@ const context_conditionals = [
                   thesis are eligible for an externally funded PhD
                   position.
                   <br /><br />
-				  <i>Conditional:</i><br /> If your fellow-student Stan belongs to
+				  <i>Statement:</i><br /> If your fellow-student Stan belongs to
                   the top 10% of his class each year, he will be eligible
                   for an externally funded PhD position.`,
             question: group_question,
@@ -91,7 +91,7 @@ const context_conditionals = [
                   newspaper. The police have a suspect in custody.
                   Arson is punished by imprisonment. He thinks:
                   <br /><br />
-				  <i>Conditional:</i><br /> If the suspect is found guilty, he or she
+				  <i>Statement:</i><br /> If the suspect is found guilty, he or she
                   will go to prison.`,
             question: group_question,
             optionLeft: label_left,
@@ -104,7 +104,7 @@ const context_conditionals = [
                   has written down a number on a slip of paper and
                   asks Carl to guess which number it is. Carl thinks:
                   <br /><br />
-				  <i>Conditional:</i><br /> If Ellen has written down a rational
+				  <i>Statement:</i><br /> If Ellen has written down a rational
                   number, then the number on the slip of paper can
                   be written as a ratio of two natural numbers.`,
             question: group_question,
@@ -116,7 +116,7 @@ const context_conditionals = [
             QUD: `<i>Context:</i><br /> Women who regularly exercise are at a 30%
                   decreased risk of developing osteoporosis.
                   <br /><br />
-				  <i>Conditional:</i><br /> If Harriet regularly exercises, she is at a
+				  <i>Statement:</i><br /> If Harriet regularly exercises, she is at a
                   decreased risk of developing osteoporosis.`,
             question: group_question,
             optionLeft: label_left,
@@ -132,7 +132,7 @@ const context_conditionals = [
                   many people still mainly speak Frisian) have difficulty with spelling. Jitske is a student of a primary
                   school somewhere in the Netherlands.
                   <br /><br />
-				  <i>Conditional:</i><br /> If Jitske goes to a Frisian primary school,
+				  <i>Statement:</i><br /> If Jitske goes to a Frisian primary school,
                   then she has difficulty with spelling.`,
             question: group_question,
             optionLeft: label_left,
@@ -144,7 +144,7 @@ const context_conditionals = [
                   caused by inhaling fine dust for a prolonged period
                   of one’s life.
                   <br /><br />
-				  <i>Conditional:</i><br /> If Rudolph has worked in the mines for
+				  <i>Statement:</i><br /> If Rudolph has worked in the mines for
                   all his life, then he has developed silicosis.`,
             question: group_question,
             optionLeft: label_left,
@@ -157,7 +157,7 @@ const context_conditionals = [
                   shops. Most members of the group own at least 20
                   pairs of shoes.
                   <br /><br />
-				  <i>Conditional:</i><br /> If Aline is a member of that group, she
+				  <i>Statement:</i><br /> If Aline is a member of that group, she
                   has at least 20 pairs of shoes.`,
             question: group_question,
             optionLeft: label_left,
@@ -170,7 +170,7 @@ const context_conditionals = [
                   on Saturdays. If it is, then that is mostly because
                   Luke, the librarian, is sick.
                   <br /><br />
-				  <i>Conditional:</i><br /> If the library is closed today, then Luke
+				  <i>Statement:</i><br /> If the library is closed today, then Luke
                   is sick.`,
             question: group_question,
             optionLeft: label_left,
@@ -182,7 +182,7 @@ const context_conditionals = [
                   their buses has been more than 5 min late in the past
                   2 years.
                   <br /><br />
-				  <i>Conditional:</i><br /> If our bus is not exactly on time, it will
+				  <i>Statement:</i><br /> If our bus is not exactly on time, it will
                   at most be a few minutes late.`,
             question: group_question,
             optionLeft: label_left,
@@ -195,7 +195,7 @@ const context_conditionals = [
                   and decided to fire most employees above fifty.
                   Mark is an employee of this company.
                   <br /><br />
-				  <i>Conditional:</i><br /> If Mark is above 50, he has been fired.`,
+				  <i>Statement:</i><br /> If Mark is above 50, he has been fired.`,
             question: group_question,
             optionLeft: label_left,
             optionRight: label_right
@@ -208,7 +208,7 @@ const context_conditionals = [
                   place. They know that large-scale attacks mostly
                   take place during morning rush hours.
                   <br /><br />
-				  <i>Conditional:</i><br /> If the group wants to kill a great many
+				  <i>Statement:</i><br /> If the group wants to kill a great many
                   people, the attack will take place during morning
                   rush hours.`,
             question: group_question,
@@ -225,7 +225,7 @@ const context_conditionals = [
                   majority of their alarms are false. Suddenly there is
                   an alarm. You say to your colleague:
                   <br /><br />
-				  <i>Conditional:</i><br /> If this alarm is from the local bank, it is
+				  <i>Statement:</i><br /> If this alarm is from the local bank, it is
                   false.`,
             question: group_question,
             optionLeft: label_left,
@@ -237,7 +237,7 @@ const context_conditionals = [
                   he had excellent grades for most courses for which
                   he had worked hard.
                   <br /><br />
-				  <i>Conditional:</i><br /> If Dick works hard for the linguistics
+				  <i>Statement:</i><br /> If Dick works hard for the linguistics
                   course, then he will get an excellent grade for it.`,
             question: group_question,
             optionLeft: label_left,
@@ -256,7 +256,7 @@ const context_conditionals = [
                   loud music. You cannot immediately determine from
                   which direction it is coming. But:
                   <br /><br />
-				  <i>Conditional:</i><br /> If this music comes from the neighbors,
+				  <i>Statement:</i><br /> If this music comes from the neighbors,
                   then Jessica has passed her finals.`,
             question: group_question,
             optionLeft: label_left,
@@ -268,7 +268,7 @@ const context_conditionals = [
             condition: "AI",
             QUD: `<i>Context:</i><br /> You strongly doubt that Hank will have passed the first-year examination. You suspect that his parents will buy him a car only if he passed that examination. You suddenly see Hank driving a new car.
                   <br /><br />
-				  <i>Conditional:</i><br /> If the car Hank is driving is his, then he
+				  <i>Statement:</i><br /> If the car Hank is driving is his, then he
                   passed the first-year examination.`,
             question: group_question,
             optionLeft: label_left,
@@ -282,7 +282,7 @@ const context_conditionals = [
                   someone rushing down the stairs. She knows that
                   Nelly is not very sports-loving. She therefore thinks:
                   <br /><br />
-				  <i>Conditional:</i><br /> If that’s Nelly rushing down the stairs,
+				  <i>Statement:</i><br /> If that’s Nelly rushing down the stairs,
                   then she is in a hurry.`,
             question: group_question,
             optionLeft: label_left,
@@ -295,7 +295,7 @@ const context_conditionals = [
                   she just saw Tom and Hank jogging together. She
                   may well be mistaken, but you think:
                   <br /><br />
-				  <i>Conditional:</i><br /> If Tom and Hank are jogging together
+				  <i>Statement:</i><br /> If Tom and Hank are jogging together
                   again, they are friends again.`,
             question: group_question,
             optionLeft: label_left,
@@ -308,7 +308,7 @@ const context_conditionals = [
                   then the most likely cause of the flooding is the
                   breaking of the dam.
                   <br /><br />
-				  <i>Conditional:</i><br /> If the village has been flooded, the dam
+				  <i>Statement:</i><br /> If the village has been flooded, the dam
                   is broken.`,
             question: group_question,
             optionLeft: label_left,
@@ -325,7 +325,7 @@ const context_conditionals = [
                   is an announcement that pickpockets are active in
                   the train station.
                   <br /><br />
-				  <i>Conditional:</i><br /> If Judy’s iPod is not in her bag, then
+				  <i>Statement:</i><br /> If Judy’s iPod is not in her bag, then
                   someone has stolen it.`,
             question: group_question,
             optionLeft: label_left,
@@ -338,7 +338,7 @@ const context_conditionals = [
                   suspect. At the suspect’s home, they are looking for
                   his shoes. One of the detectives says:
                   <br /><br />
-				  <i>Conditional:</i><br /> If we find muddy shoes, then he was at
+				  <i>Statement:</i><br /> If we find muddy shoes, then he was at
                   the crime scene.`,
             question: group_question,
             optionLeft: label_left,
@@ -352,7 +352,7 @@ const context_conditionals = [
                   there is a party going on in Pete’s garden. One of
                   them says:
                   <br /><br />
-				  <i>Conditional:</i><br /> If Pete is partying, he has won the match.`,
+				  <i>Statement:</i><br /> If Pete is partying, he has won the match.`,
             question: group_question,
             optionLeft: label_left,
             optionRight: label_right
@@ -366,7 +366,7 @@ const context_conditionals = [
                   to the historians studying the letters, the best explanation for the presence of these symbols is that the
                   author was a freemason.
                   <br /><br />
-				  <i>Conditional:</i><br /> If these letters are van Beethoven’s
+				  <i>Statement:</i><br /> If these letters are van Beethoven’s
                   indeed, then he was a freemason.`,
             question: group_question,
             optionLeft: label_left,
@@ -379,7 +379,7 @@ const context_conditionals = [
                   come; he does not seem to be very fond of parties.
                   On the other hand, she knows that Chris likes to irritate Betty.
                   <br /><br />
-				  <i>Conditional:</i><br /> If Chris comes to the party, then he
+				  <i>Statement:</i><br /> If Chris comes to the party, then he
                   wants to irritate Betty tonight.`,
             question: group_question,
             optionLeft: label_left,
@@ -396,7 +396,7 @@ const context_conditionals = [
                   reasonably explained by the effectiveness of the
                   measures taken.
                   <br /><br />
-				  <i>Conditional:</i><br /> If we shall witness a decrease in soil pollution in the next years, then the measures taken by
+				  <i>Statement:</i><br /> If we shall witness a decrease in soil pollution in the next years, then the measures taken by
                   the government are effective.`,
             question: group_question,
             optionLeft: label_left,
