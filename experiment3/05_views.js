@@ -23,14 +23,16 @@ const intro = magpieViews.view_generator("intro", {
   trials: 1,
   name: 'intro',
   // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
-  text: `This is a sample introduction view.
+  text: `Thank you for taking part in this experiment.
             <br />
             <br />
-            The introduction view welcomes the participant and gives general information
-            about the experiment. You are in the <strong>probable</strong> group.
+            Participation in this experiment is voluntary. You can quit at any moment if you like without negative consequences.
             <br />
             <br />
-            This is a minimal experiment with one forced choice view. It can serve as a starting point for programming your own experiment.`,
+            The data from this experiment will be used for scientific purposes only. It will be stored anonymously and it might be shared with other scientists.
+            <br />
+            <br />
+            By proceeding you indicate that you have read, understood and that you agree with these terms.`,
   buttonText: 'begin the experiment'
 });
 
@@ -39,9 +41,8 @@ const instructions = magpieViews.view_generator("instructions", {
   trials: 1,
   name: 'instructions',
   title: 'General Instructions',
-  text: `Here's the deal: there are 30 scenarios, each having a particular context
-         and a conditional statement regarding that context. We're asking you to tell 
-         us how probable you think this statement is given it's respective context.`,
+    text: `In this experiment, you will read 30 short pieces of text, so-called <i>contexts</i>, followed by a <i>statement</i>. Your task is to then rate how <b>probable</b> you think this statement is given the context. <br><br>
+         Please read the contexts and the statements carefully and answer the question based on your intuitive understanding of the situation described.`,
   buttonText: 'go to trials'
 });
 
