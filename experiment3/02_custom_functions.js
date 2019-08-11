@@ -10,7 +10,7 @@ const coin = _.sample(["head", "tail"]); // You can determine global (random) pa
 const label_left  = "Highly improbable"
 const label_right = "Highly probable"
 
-const group_question = `<strong>How probable is it that the conditional is true?</strong>`
+const group_question = `<strong>How probable is it that this statement is true in the given context?</strong>`
 
 
 /* Helper functions
