@@ -4,19 +4,30 @@
 *
 *
 */
-const coin = _.sample(["head", "tail"]); // You can determine global (random) parameters here
-// Declare your variables here
-const group = _.sample(["acceptable", "likely"])
+
+// decide group allocation for current participant
+const group = _.sample(["acceptable", "likely", "reasonable", "probable"]);
 
 if (group == "acceptable") {
-    label_left  = "Highly unacceptable"
-    label_right = "Highly acceptable"
-} else {
-    label_left  = "Very unlikely"
-    label_right = "Very likely"
+    label_left  = "Highly unacceptable";
+    label_right = "Highly acceptable";
+    group_question = `<strong>How acceptable is this statement in the given context?</strong>`;
 }
-
-const group_question = `<strong>How ${group} is this statement in the given context?</strong>`
+if (group == "likely") {
+    label_left  = "Very unlikely";
+    label_right = "Very likely";
+    group_question = `<strong>How reasonable is it to believe this statement in the given context</strong>?`;
+}
+if (group == "reasonable") {
+    label_left  = "Very unreasonable";
+    label_right = "Very reasonable";
+    group_question = `<strong>How reasonable is it to believe this statement in the given context</strong>?`;
+}
+if (group == "probable") {
+    label_left  = "Very unreasonable";
+    label_right = "Very reasonable";
+    group_question = `<strong>How probable is it that this statement is true in the given context?</strong>`;
+}
 
 
 /* Helper functions

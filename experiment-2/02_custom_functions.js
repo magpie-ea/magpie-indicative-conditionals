@@ -15,7 +15,7 @@ if (group == "acceptable") {
 } else {
     label_left  = "Very unreasonable"
     label_right = "Very reasonable"
-    group_question = `<strong>How reasonable is it to believe this statement in the present context</strong>?`
+    group_question = `<strong>How reasonable is it to believe this statement in the given context</strong>?`
 }
 
 
