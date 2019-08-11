@@ -38,13 +38,12 @@ const intro = magpieViews.view_generator("intro", {
 
 // For most tasks, you need instructions views
 const instructions = magpieViews.view_generator("instructions", {
-  trials: 1,
-  name: 'instructions',
-  title: 'General Instructions',
-  text: `Here's the deal: there are 30 scenarios, each having a particular context
-         and a conditional statement regarding that context. We're asking you to tell 
-         us how ${group} you think this statement is given it's respective context.`,
-  buttonText: 'go to trials'
+    trials: 1,
+    name: 'instructions',
+    title: 'General Instructions',
+    text: `In this experiment, you will read 30 short pieces of text, so-called <i>contexts</i>, followed by a <i>statement</i>. Your task is to then rate how <b>${group}</b> you think this statement is given the context. <br><br>
+         Please read the contexts and the statements carefully and answer the question based on your intuitive understanding of the situation described.`,
+    buttonText: 'go to trials'
 });
 
 // In the post test questionnaire you can ask your participants addtional questions
