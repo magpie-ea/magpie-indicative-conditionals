@@ -54,7 +54,7 @@ const context_conditionals = [
                   to the bank. She thinks:
                   <br /><br />
 				  <i>Statement:</i><br /> If the bank is closed, then the employees
-                  are on an outing.39`,
+                  are on an outing.`,
             question: group_question,
             optionLeft: label_left,
             optionRight: label_right
